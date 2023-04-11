@@ -1,0 +1,100 @@
+--body
+{
+    background-image: url(mainbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navBar
+{   
+    background-color: #0095ffca;
+    display: flex;
+    padding: 5px;
+    border-bottom: 10px solid;
+    border-color: #0095ffca;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.name
+{
+    border-style: outset;
+    width: 13%;
+    font-size: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+   
+}
+
+.navBar a
+{
+   float: left;
+   display: block;
+   margin-top: auto;
+   padding: 10px;
+   margin-left: 3px;
+   font-size: 25px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   
+   
+}
+
+.navBar a:hover
+{
+    background-color: #0062a9ca;
+}
+
+.navBar a:active
+{
+    box-shadow: none;
+    top: 5px;
+}
+
+.sign-in
+{
+    font-size: 24px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    color: white;
+}
+
+.search
+{
+    font-size: 25px;
+    float: left;
+    position: relative;
+    
+    width: fit-content;
+    height: 25;
+    margin-top: 100px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+}
+
+button[type="submit"] {
+    
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+button[type="submit"]:hover {
+    background-color: #0062a9ca;
+  }
+
+input[name = "uname"]
+{
+    height: 25px;
+}
+
+input[name = "psw"]
+{
+    height: 25px;
+}
+
