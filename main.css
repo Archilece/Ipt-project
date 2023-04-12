@@ -1,8 +1,9 @@
---body
+body
 {
-    background-image: url(mainbg.jpg);
+    background-image: url(bg2.png);
     background-position: center;
     background-size: cover;
+    border: 1px solid;
 }
 .navBar
 {   
@@ -12,10 +13,10 @@
     border-bottom: 10px solid;
     border-color: #0095ffca;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    
+    top: -8px;
+    left: -8px;
+    width: 100.3%;
+    position: relative;
 }
 
 .name
@@ -98,3 +99,21 @@ input[name = "psw"]
     height: 25px;
 }
 
+.forum-section
+{
+    width: 50%;
+    padding: 10px;
+    border: 1px ;
+    position: relative;
+    left: 25%;
+    top: 10%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.forum-title 
+{
+  width: fit-content;
+  height: fit-content;
+
+}
